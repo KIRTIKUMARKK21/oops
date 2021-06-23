@@ -16,7 +16,7 @@ using namespace std;
 
 
 
-void clear_screen();
+void clear_screen(); //go and adjust this function according to your system at bottom;
 void menu();
 int chooseMain();
 void getDoctorDatabase();
@@ -604,7 +604,7 @@ void numberofDocs() {
 	while (fileObj >> ID >> fname >> lname >> age >> qua >> spe >> exp >> ci)
 	{	count++;
 	}
-	cout << "\n\n\t\t\t\t\t\tThe Total number of doctors in the hospital=" << count << endl << endl;
+	cout << "\n\n\t\t\t\t\tThe Total number of doctors in the hospital=" << count << endl << endl;
 
 	cout << "\t\t\t\t\t" << "------------------------------------------------" << endl;
 
@@ -1299,6 +1299,7 @@ void getStatus()
 //the main function
 
 
+
 password A;
 
 int main()
@@ -1548,9 +1549,10 @@ void getBedDatabase() {
 }
 void clear_screen()
 {
-#ifdef WINDOWS
-	system("cls");
-#else
+// windows user;
+// system("cls");
+
+
+// linux user:
 	system("clear");
-#endif
 }
