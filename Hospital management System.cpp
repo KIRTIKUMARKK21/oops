@@ -32,6 +32,7 @@ class password {
 private:
 	string pass;
 public:
+
 	void getPassword() {
 		cout << "\n\t\t\t\t\t\tChoose a password for your system: " ;
 		cin >> pass;
@@ -73,7 +74,7 @@ public:
 
 
 class doctor {
-public:
+private:
 	string d_fname, d_lname;
 	int d_ID, d_age, experience, d_totalno;
 	string qual, d_city;
@@ -635,7 +636,7 @@ void numberofDocs() {
 
 
 class patient {
-public:
+private:
 	string fname, lname, occupation, p_city, dis, addDate, relDate;
 	int p_age, p_ID;
 	long double phnumber, bill;
@@ -1252,7 +1253,7 @@ void numberofPats()
 // ---------------------------------------------------------------------------------------------------------
 
 class bed {
-public:
+private:
 	int total = 1500;
 	friend void getStatus();
 };

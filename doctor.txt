@@ -14,14 +14,6 @@ MBBS
 ONCOLOGY
 20
 Allahabad
-2
-Nitin
-Kumar
-12
-MBBS
-ONCOLOGY
-45
-All
 1
 Saket
 Tiwari
@@ -29,4 +21,12 @@ Tiwari
 MBBS
 NEUROLOGY
 67
+All
+2
+Nitin
+Kumar
+12
+MBBS
+ONCOLOGY
+45
 All
