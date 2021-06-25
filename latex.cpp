@@ -73,7 +73,7 @@ public:
 
 
 class doctor {
-public:
+private:
 	string d_fname, d_lname;
 	int d_ID, d_age, experience, d_totalno;
 	string qual, d_city;
@@ -678,11 +678,12 @@ void numberofDocs() {
 //Patient Class
 // ---------------------------------------------------------------
 class patient {
-public:
+private:
 	string fname, lname, occupation, p_city, dis, addDate, relDate;
 	int p_age, p_ID;
 	long double phnumber, bill;
 	string getDept();
+public:
 	friend void getDoctor();
 	friend void addPat();
 	friend void editPat(patient &pat);
